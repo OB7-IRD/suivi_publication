@@ -21,6 +21,7 @@ Le format standardisé pour les ORGPs est le suivant:
  url = {},
  abstract = {Abstract},
  keywords = {},
+ organization = {{}},
  x-conferencestartdate = {2015},
  x-audience  = {Valeurs possibles:Internationale, International, Nationale, National, Non spécifiée, Not set},
  x-language  = {en},
@@ -28,6 +29,7 @@ Le format standardisé pour les ORGPs est le suivant:
  x-peerreviewing = {Valeurs possibles:Oui, Yes, Non, No},
  x-popularlevel = {Valeurs possibles:Non, No, Oui, Yes},
  x-proceedings  = {Valeurs possibles:Oui, Yes, Non, No},
+ x-localreference = {}
  }
 ```
 
@@ -43,6 +45,7 @@ Le format standardisé pour les ORGPs est le suivant:
  year = {2020},
  abstract = {This paper is an information note on the progress of the development of the new version of T3 following the development of a new statistical model.},
  pages = {1--5},
+ organization = {{IOTC}},
  x-conferencestartdate = {2020},
  x-audience  = {International},
  x-language  = {en},
@@ -50,6 +53,7 @@ Le format standardisé pour les ORGPs est le suivant:
  x-peerreviewing = {No},
  x-popularlevel = {No},
  x-proceedings  = {Yes},
+ x-localreference = {IOTC-2020-WPTT22(DP)-INF01}
  }
  ```
 
