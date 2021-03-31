@@ -2,12 +2,12 @@
 
 L'objectif est d'avoir un suivi des articles publiés par l'observatoire ainsi que celle à partir de ces données.
 
-Le recencement se fait par année dans un fichier au format **bibtex**. Il se décompose dans deux repertoires discints:
+Le recencement se fait dans un fichier au format **bibtex** et se décompose comme suit :
 
 - **publication_interne_ob7** liste les productions de l'équipe.
 - **publication_externe_ob7** liste les productions issues des données de l'observatoire (sans auteur de l'équipe).
 
-Ce resencement des articles publiés par l'observatoire permettra également de les inserer en volume au sein de l'archive ouverte HAL. Il est necessaire de mettre un standard commun à l'équipe pour décrire les références. De plus, afin de les intégrer dans HAL, il est necessaire de la formalisation de leur outils. 
+Ce resencement des articles publiés par l'observatoire permettra également de les inserer en volume au sein de l'archive ouverte HAL. Il est necessaire de mettre un standard commun à l'équipe pour décrire les références. De plus, afin de les intégrer dans HAL, il est necessaire de la formalisation de leur outils.
 
 Le format standardisé pour les ORGPs est le suivant:
 
@@ -31,31 +31,31 @@ Le format standardisé pour les ORGPs est le suivant:
  }
 ```
 
-
 ## Exemple pour un papier soumis en 2020
 
 ```bib
 @inproceedings{duparc_development_2020,
-	title = {Development status of the new {Tropical} {Tunas} {Treatment} ({T3}) software},
-	author = {Duparc, Antoine and Depetris, Mathieu and Floch, Laurent and Cauquil, Pascal and Bach, Pascal and Lebranchu, Julien},
-	booktitle = {22nd session of the {IOTC} {Working} {Party} on {Tropical} {Tunas} - {Data} preparatory meeting},
-    url = {https://iotc.org/sites/default/files/documents/2020/06/IOTC-2020-WPTT22DP-INF01.pdf}
-    address={Victoria, Seychelles},
-    year = {2020},
-    abstract = {This paper is an information note on the progress of the development of the new version of T3 following the development of a new statistical model.},
-    pages = {1--5},
-    x-conferencestartdate = {2020},
-    x-audience  = {International},
-    x-language  = {en},
-    x-invitedcommunication = {no},
-    x-peerreviewing = {No},
-    x-popularlevel = {No},
-    x-proceedings  = {Yes},
+ title = {Development status of the new {Tropical} {Tunas} {Treatment} ({T3}) software},
+ author = {Duparc, Antoine and Depetris, Mathieu and Floch, Laurent and Cauquil, Pascal and Bach, Pascal and Lebranchu, Julien},
+ booktitle = {22nd session of the {IOTC} {Working} {Party} on {Tropical} {Tunas} - {Data} preparatory meeting},
+ url = {https://iotc.org/sites/default/files/documents/2020/06/IOTC-2020-WPTT22DP-INF01.pdf}
+ address={Victoria, Seychelles},
+ year = {2020},
+ abstract = {This paper is an information note on the progress of the development of the new version of T3 following the development of a new statistical model.},
+ pages = {1--5},
+ x-conferencestartdate = {2020},
+ x-audience  = {International},
+ x-language  = {en},
+ x-invitedcommunication = {no},
+ x-peerreviewing = {No},
+ x-popularlevel = {No},
+ x-proceedings  = {Yes},
  }
  ```
 
 ## Formalisation pour HAL
-La référence est des champ pour HAL est disponible à l'adresse suivante : https://doc.archives-ouvertes.fr/x2hal/champs-bibtex-obligatoiresoptionnels-par-type/.
+
+La référence est des champ pour HAL est disponible à l'adresse suivante : <https://doc.archives-ouvertes.fr/x2hal/champs-bibtex-obligatoiresoptionnels-par-type/>.
 Un bref rappel adapté à nos besoins est décrit ci après.
 
 ### Champs optionnels communs à tous les types BibTeX
@@ -86,7 +86,7 @@ Un bref rappel adapté à nos besoins est décrit ci après.
 
 ### Nos besoins
 
-Nous sommes concernés principalement par les blocs de citations suivants: 
+Nous sommes concernés principalement par les blocs de citations suivants :
 
 #### @inproceedings (COMM) = Communication
 
@@ -108,6 +108,7 @@ Champs obligatoires
  x-proceedings  = {Valeurs possibles:Oui, Yes, Non, No},
  }
 ```
+
 Les champs obligatoires x-country (MT HAL : country) et x-city (MT HAL : city) peuvent être saisi directement ou calculés par X2hal à partir du champ address.
 
 Champs optionnels
@@ -125,4 +126,3 @@ Champs optionnels
 - x-serieseditor (MT HAL : seriesEditor)
 - x-source (MT HAL : source)
 - Champs optionnels communs à tous les types BibTeX
-
