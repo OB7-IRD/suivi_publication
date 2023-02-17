@@ -5,7 +5,7 @@ L'objectif est d'avoir un suivi des articles publiés par l'observatoire ainsi q
 Le recencement se fait dans un fichier au format **bibtex** et se décompose comme suit :
 
 - **publication_interne_ob7** liste les productions de l'équipe.
-- **publication_externe_ob7** liste les productions issues des données de l'observatoire (sans auteur de l'équipe).
+- **publication_externe_ob7** liste les productions issues des données de l'observatoire (dont la contribution de l'équipe est limitée).
 
 Ce resencement des articles publiés par l'observatoire permettra également de les inserer en volume au sein de l'archive ouverte HAL. Il est necessaire de mettre un standard commun à l'équipe pour décrire les références. De plus, afin de les intégrer dans HAL, il est necessaire de la formalisation de leur outils.
 
